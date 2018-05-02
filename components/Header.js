@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const Header = (props) =>
 {
-
+    console.log("hello world");
     return (  <View style = {styles.container}>
           <Text style = {styles.text}>{props.text}</Text>
       </View>);
